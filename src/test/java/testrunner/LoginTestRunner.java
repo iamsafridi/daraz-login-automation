@@ -9,6 +9,7 @@ import org.testng.annotations.Test;
 import page.LoginPage;
 
 public class LoginTestRunner extends Setup {
+
     @Test(priority = 2,description = "User cannot login with empty field")
     public void emptyField(){
         LoginPage loginPage = new LoginPage(driver);
@@ -38,3 +39,7 @@ public class LoginTestRunner extends Setup {
     }
 
 }
+
+
+
+
